@@ -26,6 +26,13 @@ app.get("/health", (req, res) => {
     })
 })
 
+app.get("/me", (req, res) => {
+    return res.status(200).json({
+        success: true,
+        message: "This is Vishal Pandey"
+    })
+})
+
 const port = process.env.PORT || 7000;
 app.listen(port, () => {
     console.log(`Server is running on port ${process.env.PORT}`);

@@ -1,0 +1,12 @@
+1 -> create a ec2 instance
+2 -> then save the key (to connect the aws machine with the local machine terminal)
+3 -> then attach elastic IP to the instance
+4 -> then edit the custom inbout port in the security groupt latest wizard
+
+
+5 -> then connect the local machine to the aws instance 
+2 -> install the docker in the instance
+3 -> clone the git repo in the instance
+4 -> make the docker image and run the container 
+
+and your project will run on the elastic IP and the port you have attached to the container
